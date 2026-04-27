@@ -26,7 +26,7 @@ GRANT SELECT ON grade_points TO User_D;
 -- Questão 04. O User_E poderá selecionar qualquer atributo de STUDENT,
 -- mas somente para tuplas de STUDENT que tem dept_name = 'Civil Eng.'
 
--- CREATE OR ALTER VIEW vw_student_civil_eng AS
+-- CREATE VIEW vw_student_civil_eng AS
 -- SELECT * FROM student 
 -- WHERE dept_name = 'Civil Eng.';
 
